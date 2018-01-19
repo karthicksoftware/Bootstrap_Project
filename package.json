@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap_project",
+  "version": "1.0.0",
+  "description": "just a sample project to get started with bootstrap_v5",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthicksoftware/Bootstrap_Project.git"
+  },
+  "author": "karthick arunachalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthicksoftware/Bootstrap_Project/issues"
+  },
+  "homepage": "https://github.com/karthicksoftware/Bootstrap_Project#readme"
+}
