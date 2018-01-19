@@ -2,12 +2,15 @@
   "name": "bootstrap_project",
   "version": "1.0.0",
   "description": "just a sample project to get started with bootstrap_v5",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "express": "^4.16.2"
+    "bootstrap-jquery": "^3.3.2",
+    "express": "^4.16.2server"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
   "scripts": {
     "test": "test"
   },
