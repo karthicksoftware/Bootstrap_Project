@@ -4,8 +4,6 @@
   "description": "just a sample project to get started with bootstrap_v5",
   "main": "server.js",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-jquery": "^3.3.2",
     "express": "^4.16.2server"
   },
   "devDependencies": {
