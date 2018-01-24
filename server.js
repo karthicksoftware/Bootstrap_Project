@@ -5,9 +5,6 @@ var app = express();
 // Middleware to point static files public folder
 app.use(express.static('public'));
 
-app.get("/test", function(req, res){
-  res.sendFile(__dirname+"/public/scrollspy.html");
-});
 
 // Change the 404 message modifing the middleware
 app.use(function(req, res, next) {
