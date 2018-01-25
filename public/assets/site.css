@@ -32,6 +32,10 @@
 
 .section-padding {
   padding-top: 62px;
+  padding-bottom: 62px;
+  justify-content: center;
+  background-color: dark;
+  font-color: #fff;
 }
 
 .caption {
@@ -41,6 +45,14 @@
   width: 100%;
   text-align: center;
   color: #000;
+}
+
+.nav>li>a.active,
+.nav>li>a:hover,
+.nav-item nav-link.active,
+.nav>li>a:focus {
+   background-color: blue !important;
+   color: white;
 }
 
 .header {
