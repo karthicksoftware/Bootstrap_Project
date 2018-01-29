@@ -22,10 +22,3 @@ $(document).ready(function() {
     } // End if
   });
 });
-
-/*$(document).ready(function() {
-  // Add smooth scrolling to all links
-  $("#more-button").on('click', function(event) {
-    $(elem).hide();
-  });
-});*/

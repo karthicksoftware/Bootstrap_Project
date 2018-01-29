@@ -89,8 +89,13 @@
   color: #000;
 }
 
-.nav>li>a.active, .nav>li>a:hover, .nav-item nav-link.active, .nav>li>a:focus {
+/*.nav>li>a.active, .nav>li>a:hover, .nav-item nav-link.active, .nav>li>a:focus {
   background-color: blue !important;
+  color: white;
+}*/
+
+.nav>li>a:hover {
+  background-color: #3281ff !important;
   color: white;
 }
 
