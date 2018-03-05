@@ -20,23 +20,24 @@
 }
 
 .bgimg-1 {
-  background-image: url("images/2.png");
+  background-image: url("images/b1.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("images/2.png");
+  background-image: url("images/b2.jpg");
   min-height: 100px;
 }
 
 .bgimg-3 {
-  background-image: url("images/2.png");
+  background-image: url("images/b3.jpg");
   min-height: 100px;
 }
 
 .bg-card {
   background-image: url("images/abs.jpg");
 }
+
 
 .container-color {
   background-color:black;
@@ -50,9 +51,7 @@
 }
 
 .shadow {
-  -webkit-box-shadow: -2px 10px 82px 6px orange;
-  -moz-box-shadow: -2px 10px 82px 6px orange;
-  box-shadow: -2px 10px 82px 6px orange;
+  box-shadow: -1px 8px 22px 4px rgb(252, 169, 16);
 }
 
 .text-orange {

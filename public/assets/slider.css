@@ -54,7 +54,7 @@
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #3281ff;
+  background: orange;
 }
 
 /* The dots/bullets/indicators */
@@ -73,7 +73,7 @@
 /* Add a background color to the active dot/circle */
 
 .active, .dot:hover {
-  background-color: orange;
+  background-color: black;
 }
 
 /* Add an italic font style to all quotes */
@@ -102,7 +102,24 @@ q {
   margin: 0 auto;
 }
 
+.icon-zoom {
+  transition: transform .2s;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.icon-zoom:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .zoom:hover {
   transform: scale(1.5);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 300px;
 }
